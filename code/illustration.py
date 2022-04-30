@@ -40,5 +40,6 @@ plt.plot(x3,y3)
 plt.plot(xpoints1,ypoints1)
 plt.plot(xpoints2,ypoints2)
 plt.title("diagram")
+plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 
